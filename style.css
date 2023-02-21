@@ -567,7 +567,7 @@ letter-spacing: 0.5px;
         font-size: 20px;
     }
     .right-nav{
-        gap: 10px;
+        gap: 35px;
     }
     .head{
         background-size: 100%;
@@ -602,5 +602,8 @@ letter-spacing: 0.5px;
     .contact p{
       margin-left: 10px;
       margin-right: 10px;
+    }
+    address{
+      margin-top: 25px;
     }
 }
