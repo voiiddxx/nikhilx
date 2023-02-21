@@ -1,0 +1,606 @@
+/*===css format for google font
+font-family: 'Gloock', serif;
+font-family: 'Poppins', sans-serif;
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.head{
+
+
+    background-image: url(./images/Untitledblue.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 45% 25%;
+    background-color: #0035D4;
+    
+
+}
+.navbar{
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 2%;
+    
+
+    
+}
+.right-nav{
+    padding-right: 10%;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+.right-nav a{
+  text-decoration: none;
+}
+.left-nav{
+    padding-left: 10%;
+    font-family: 'Poppins', sans-serif;
+
+}
+.left-nav {
+    color: white;
+}
+.right-nav i{
+    color: white;
+    font-size: 30px;
+
+}
+
+.hero-heading h1{
+    font-size: 60px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-weight: 300;
+    text-align: center;
+    justify-content: center;
+    margin-top: 15%;
+
+}
+.hero-heading h1 span {
+    color: #fdffff;
+    font-weight: 600;
+    font-style: italic;
+}
+.hero-heading p{
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(229, 228, 228);
+    text-align: center;
+    justify-content: center;
+    padding-left: 30%;
+    padding-right: 30%;
+    padding-bottom: 5%;
+
+}
+.head-image{
+  align-items: center;
+  padding-left: 40%;
+}
+.aboutme{
+    padding-bottom: 30px;
+    width: 100%;
+    background-color:  #0b10d4 ;
+    display: flex;
+    flex-direction: row;
+    
+    gap: 30%;
+    padding-left: 10%;
+    padding-right: 20%;
+    
+
+}
+
+.about-text h1{
+    color: white;
+    margin-top: 20px;
+
+font-family: 'Poppins', sans-serif;
+font-size: 40px;
+font-weight: 600;
+}
+
+.about-text p{
+    text-align: left;
+    
+letter-spacing: 0.5px;
+    font-size: 15px;
+    color: rgb(198, 187, 187);
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.about-image img{
+    height: auto;
+    width: 300%;
+    padding-right: 5%;
+    padding-top: 25px;
+
+}
+
+
+.about-text a{
+    text-decoration: underline;
+    color: white;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+
+
+
+/* ===why part===*/
+
+
+
+
+
+.whyyy{
+
+    background-color: #F8F9F9;
+    margin-top: 40px;
+  }
+  .choose-head  h1{
+    text-align: center;
+    padding-top: 50px;
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    background-color: #0035D4;
+    padding-bottom: 30px;
+    color: white;
+    
+    
+  }
+  .choose-head p{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: #cdcdcd;
+    background-color: #0035D4;
+    margin-top: -10px;
+  
+  }
+  .parent{
+    background-color: #0035D4;
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: -18px;
+  }
+  
+  
+  .child{
+    margin: 34px 31px;
+    width: 30vh;
+    background-color: #0035D4;
+    border-radius: 20px;
+  transition: 0.3s;
+  }
+  .child h2{
+    margin-top: 25px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 550;
+    font-size: 25px;
+    color: white;
+  }
+  .child img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 25px ;
+    margin-right: auto;
+    height: auto;
+    width: 70%;
+    border-radius: 0%;
+  
+  }
+  .child p{
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  
+  /* ===why part end===*/
+  
+  
+  /*===project starrt====*/
+  .project{
+    background-image: url(./images/Untitled.png);
+
+    /* Set a specific height */
+    min-height:800px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  
+  }
+
+  
+.pro-heading h1{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+    background-color: #0035D4;
+    color: white;
+    
+}
+  
+
+.pro-div{
+    height: 700px;
+    width: 100%;
+    background-color: transparent;
+}
+
+.project a{
+    text-decoration: none;
+    font-family: 'poppins' , sans-serif;
+    font-size: 35px;
+    background-color: #0035D4;
+    color: white;
+    margin-left: 45%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-radius: 2%;
+}
+
+
+/*====projectc  2 ===*/
+
+.project2{
+    background-image: url(./images/Untitleddesigny.png);
+
+    /* Set a specific height */
+    min-height:800px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  
+  }
+
+  
+
+.pro-div2{
+    height: 700px;
+    width: 100%;
+    background-color: transparent;
+}
+
+.project2 a{
+    text-decoration: none;
+    font-family: 'poppins' , sans-serif;
+    font-size: 35px;
+    background-color: #0035D4;
+    color: white;
+    margin-left: 45%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-radius: 10px;
+}
+
+/*====projectc  2 end ===*/
+
+/*===project3 ====*/
+
+.project3{
+    background-image: url(./images/Untitledrobotroys\ \(1\).png);
+
+    /* Set a specific height */
+    min-height:800px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  
+  }
+
+  
+
+.pro-div3{
+    height: 700px;
+    width: 100%;
+    background-color: transparent;
+}
+
+.project3 a{
+    text-decoration: none;
+    font-family: 'poppins' , sans-serif;
+    font-size: 35px;
+    background-color: #0035D4;
+    color: white;
+    margin-left: 45%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-radius: 2%;
+}
+
+/*===project3  end====*/
+
+
+/*===project4===*/
+
+.project4{
+    background-image: url(./images/Untitledrobotroys.png);
+
+    /* Set a specific height */
+    min-height:800px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  
+  }
+
+  
+
+.pro-div4{
+    height: 700px;
+    width: 100%;
+    background-color: transparent;
+}
+
+.project4 a{
+    text-decoration: none;
+    font-family: 'poppins' , sans-serif;
+    font-size: 35px;
+    background-color: #0035D4;
+    color: white;
+    margin-left: 45%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-radius: 2%;
+}
+
+/*===project4 end===*/
+
+  /*===project starrt end====*/
+  
+
+
+/*===skilsss===*/
+.skills{
+    background-image: url(./images/Untitledbg.png);
+
+    /* Set a specific height */
+    min-height:700px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  
+}
+
+/* ===why part===*/
+
+
+
+
+
+
+  .choose-headskill  h1{
+    text-align: center;
+    padding-top: 50px;
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+
+    padding-bottom: 30px;
+    color: white;
+    
+    
+  }
+  .choose-headskill p{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: #cdcdcd;
+
+    margin-top: -10px;
+  
+  }
+  .parentskill{
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: -18px;
+  }
+  
+  
+  .childskill{
+    margin: 34px 31px;
+    width: 30vh;
+    border-radius: 20px;
+  transition: 0.3s;
+  }
+  .childskill h2{
+    margin-top: 25px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 550;
+    font-size: 25px;
+    color: white;
+    margin-left: 15px;
+  }
+  .childskill img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px ;
+    margin-right: auto;
+    height: auto;
+    width: 70%;
+    border-radius: 0%;
+  
+  }
+  .childskill p{
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  
+  /* ===why part end===*/
+  
+
+/*===skilsss end===*/
+
+
+
+/*====say hello==*/
+
+.contact{
+  background-color: #0b10d4;
+  height: 500px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10%;
+}
+
+.contact h1{
+  font-family: 'poppins' , sans-serif;
+  font-size: 35px;
+  font-weight: 500;
+  color: white;
+
+}
+.contact p{
+  font-family: 'poppins' , sans-serif;
+  color: white;
+  letter-spacing: 0.5px;
+  text-align: center;
+}
+
+.contact a{
+  text-decoration: none;
+  font-family: 'poppins' , sans-serif;
+  letter-spacing: 0.5px;
+  color: white;
+  border: 0.5px solid white;
+  border-radius: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.contact a:hover{
+  background-color: #6b59f9;
+  transition: 0.5s;
+}
+/*====say hello end==*/
+
+
+/*===footer part==*/
+.footer{
+  font-family: 'poppins' , sans-serif;
+  letter-spacing: 0.5px;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 25px;
+  background-color: #0b10d4;
+  font-size: 10px;
+  text-align: center;
+}
+/*===footer part end==*/
+
+/*===media query===*/
+@media only screen and (max-width:1400px){
+    .aboutme{
+        gap: 10%;
+    }
+}
+@media only screen and (max-width:700px) {
+    .navbar{
+        padding-top: 5%;
+    }
+    .left-nav{
+        padding-left: 5%;
+    }
+    .right-nav i{
+        font-size: 20px;
+    }
+    .right-nav{
+        gap: 10px;
+    }
+    .head{
+        background-size: 100%;
+        background-position: -882% -5%;
+    }
+    .hero-heading{
+      background: url(./images/Untitledblue.png);
+    }
+    .hero-heading h1{
+        padding-top: 18%;
+        padding-left: 10px;
+        font-size: 53px;
+        padding-right: 10px;
+    }
+    .hero-heading p{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+
+    /*==about part==*/
+    .aboutme{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+    .about-image img{
+        height: auto;
+        width: 100%;
+    }
+    .contact p{
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+}
